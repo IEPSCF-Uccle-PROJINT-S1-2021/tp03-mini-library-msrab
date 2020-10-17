@@ -1,0 +1,10 @@
+html
+	head
+		title liste des livres
+	body
+		ul
+			each book in list
+				li #{book.title} de #{book.author}
+
+		p
+			a(href='/') retour au formulaire
